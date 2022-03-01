@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace BO.Codes
 {
-    internal class Vehicles
+    internal class Vehicle
     {
         public int Horsepower { get; set; }
     }
 
-    internal class Car : Vehicles
+    internal class Car : Vehicle
     {
         public string Make { get; set; }
 
