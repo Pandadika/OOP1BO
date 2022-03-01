@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using BO.Codes;
+
+
 Console.WriteLine("Hello, World!");
