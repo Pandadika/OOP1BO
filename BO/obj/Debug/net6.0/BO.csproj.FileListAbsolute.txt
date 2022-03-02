@@ -1,0 +1,15 @@
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\bin\Debug\net6.0\BO.exe
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\bin\Debug\net6.0\BO.deps.json
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\bin\Debug\net6.0\BO.runtimeconfig.json
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\bin\Debug\net6.0\BO.dll
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\bin\Debug\net6.0\BO.pdb
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\obj\Debug\net6.0\BO.csproj.AssemblyReference.cache
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\obj\Debug\net6.0\BO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\obj\Debug\net6.0\BO.AssemblyInfoInputs.cache
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\obj\Debug\net6.0\BO.AssemblyInfo.cs
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\obj\Debug\net6.0\BO.csproj.CoreCompileInputs.cache
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\obj\Debug\net6.0\BO.dll
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\obj\Debug\net6.0\refint\BO.dll
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\obj\Debug\net6.0\BO.pdb
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\obj\Debug\net6.0\BO.genruntimeconfig.cache
+C:\Users\Søren\Documents\TEC\Hovedforløb 1\OOP\OOP1BO\BO\obj\Debug\net6.0\ref\BO.dll
