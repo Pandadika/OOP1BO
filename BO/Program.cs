@@ -19,6 +19,7 @@ while (true)
     }
     else
     {
+        Console.Clear();
         break;
     }
 }
@@ -51,7 +52,6 @@ while (true)
             break;
     }
 
-    Console.Clear();
     Console.WriteLine(course.ToString() + "\n");
     Console.WriteLine("-----------------------------------------------------------");
     Console.Write("Af alle fag, har");
