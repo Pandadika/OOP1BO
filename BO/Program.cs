@@ -1,7 +1,6 @@
 ﻿
 
 Course course;
-
 int input;
 bool test;
 
@@ -13,7 +12,7 @@ while (true)
     test = Int32.TryParse(Console.ReadLine(), out input);
     if (!test || (input < 1 || input > 3))
     {
-        Console.WriteLine("Input kun tal mellem 1 og 3");
+        Console.WriteLine("Input kun tal mellem 1 og 3. \nTryk any key for at prøve igen");
         Console.ReadKey();
         Console.Clear();
     }
@@ -94,7 +93,7 @@ while (true)
         test = Int32.TryParse(Console.ReadLine(), out input);
         if (!test || (input < 1 || input > 3))
         {
-            Console.WriteLine("Input kun tal mellem 1 og 3");
+            Console.WriteLine("Input kun tal mellem 1 og 3. \nTryk any key for at prøve igen");
             Console.ReadKey();
             Console.Clear();
         }
