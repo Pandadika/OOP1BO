@@ -29,27 +29,27 @@ string colourName = "";
 
 while (true)
 {
-switch (input)
-{
-    case 1:
-        course = new(SchoolingCategory.Programmeringslinje);
-        colour = ConsoleColor.Green;
-        colourName = "grøn";
-        break;
-    case 2:
-        course = new(SchoolingCategory.Supporterlinje);
-        colour = ConsoleColor.Yellow;
-        colourName = "gul";
-        break;
-    case 3:
-        course = new(SchoolingCategory.Infrastrukturlinje);
-        colour = ConsoleColor.Red;
-        colourName = "rød";
-        break;
-    default:
-        course = new(SchoolingCategory.Programmeringslinje);
-        break;
-}
+    switch (input)
+    {
+        case 1:
+            course = new(SchoolingCategory.Programmeringslinje);
+            colour = ConsoleColor.Green;
+            colourName = "grøn";
+            break;
+        case 2:
+            course = new(SchoolingCategory.Supporterlinje);
+            colour = ConsoleColor.Yellow;
+            colourName = "gul";
+            break;
+        case 3:
+            course = new(SchoolingCategory.Infrastrukturlinje);
+            colour = ConsoleColor.Red;
+            colourName = "rød";
+            break;
+        default:
+            course = new(SchoolingCategory.Programmeringslinje);
+            break;
+    }
 
     Console.Clear();
     Console.WriteLine(course.ToString() + "\n");
@@ -64,7 +64,7 @@ switch (input)
     Console.ResetColor();
     Console.WriteLine("-----------------------------------------------------------");
 
-    
+
     foreach (var item in course.Courses)
     {
         if (course.SchoolingCourses.Contains(item))
