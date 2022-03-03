@@ -1,19 +1,10 @@
-﻿using System.ComponentModel;
-using BO.Codes;
+﻿
 
-CourseCategory Name = CourseCategory.Web_Server;
+Course course = new(SchoolingCategory.Programmeringslinje);
 
-Console.WriteLine(Name.GetEnumDescription());
+Console.WriteLine(course.ToString());
+Console.WriteLine(course.PrintTeachers());
+Console.WriteLine(course.PrintCourses());
+Console.WriteLine(course.GetTeacher());
 
 
-public static class EnumExtensionMethods
-{
-    public static string GetEnumDescription(this Enum enumValue)
-    {
-        var fieldInfo = enumValue.GetType().GetField(enumValue.ToString());
-
-        var descriptionAttributes = (DescriptionAttribute[])fieldInfo.GetCustomAttributes(typeof(DescriptionAttribute), false);
-
-        return descriptionAttributes.Length > 0 ? descriptionAttributes[0].Description : enumValue.ToString();
-    }
-}
