@@ -10,7 +10,7 @@ namespace BO.Codes.Models
     {
         public SchoolingCategory SchoolingCategory { get; set; }
         public List<TECPerson> Teachers { get; set; }
-        private List<CourseCategory>? Courses { get; set; }
+        public List<CourseCategory>? Courses { get; set; }
 
         public Schooling(SchoolingCategory schoolingCategory)
         {
@@ -32,6 +32,7 @@ namespace BO.Codes.Models
         }
 
         public abstract string? GetTeacher();
+
         public string PrintTeachers()
         {
             string result = "";
@@ -48,7 +49,7 @@ namespace BO.Codes.Models
             Courses.Sort();
             foreach (var item in Courses)
             {
-                result += $"{item}\n";
+                result += $"{item.GetEnumDescription()}\n";
             }
             return result;
         }

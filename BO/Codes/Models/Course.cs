@@ -11,6 +11,7 @@ namespace BO.Codes.Models
         public Course(SchoolingCategory schoolingCategory) : base(schoolingCategory)
         {
             SchoolingCategory = schoolingCategory;
+            base.SetCourses();
             SetCourses();
         }
 
